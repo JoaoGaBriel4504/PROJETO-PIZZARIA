@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth ;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -35,9 +39,9 @@ header {
 
   background: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.8) 0%,
-    rgba(0, 0, 0, 0.8) 60%,
-    rgba(0, 0, 0, 0) 100%
+    rgba(255, 146, 146, 0.681) 0%,
+    rgba(255, 0, 0, 0.8) 60%,
+    rgb(255, 0, 0) 100%
   );
   background: -webkit-linear-gradient(
     to bottom,
@@ -49,7 +53,7 @@ header {
     to bottom,
     rgba(0, 0, 0, 0.8) 0%,
     rgba(0, 0, 0, 0.8) 60%,
-    rgba(0, 0, 0, 0) 100%
+    rgba(255, 0, 0, 0) 100%
   );
   padding: 24px 0;
 }
@@ -84,7 +88,7 @@ header {
 
 .main-navigation a:hover,
 .main-navigation a:focus {
-  border-color: #e7a200;
+  border-color: #ff0000;
 }
 
 .site-header-main {
@@ -104,7 +108,7 @@ header {
 }
 
 #btnzap {
-  background: #e7a200;
+  background: #e70000;
   border-radius: 65px;
   padding: 3px 15px;
   font-size: 20px;
@@ -120,7 +124,7 @@ header {
   position: fixed;
   right: 0;
   top: 200px;
-  box-shadow: -10px 10px 13px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: -10px 10px 13px 0px rgb(255, 0, 0);
 }
 
 #BoasVindas {
@@ -167,21 +171,21 @@ header {
 
 #btnCardapio {
   text-decoration: none;
-  background-color: #8daa3d;
+  background-color: #ff5b5b;
   color: #fff;
   padding: 10px 20px;
   border-radius: 50px;
-  border-bottom: 2px solid #6b7552;
+  border-bottom: 2px solid #ff5c5c;
   margin-bottom: 10px;
   transition: all 0.3s;
 }
 
 #btnCardapio:hover {
-  background-color: #6b7552;
+  background-color: #ff0000;
 }
 
 #Delivery {
-  background-color: #ebe7db;
+  background-color: #dddddd;
   margin: 50px 0;
   display: flex;
   justify-content: center;
@@ -228,14 +232,14 @@ header {
 .forms {
   width: 530px;
   max-width: 100%;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 6px rgba(255, 0, 0, 0.3);
   background-color: #fff;
   padding: 48px 22px;
   text-align: center;
   text-transform: uppercase;
 
   & h2 {
-    color: #e7a200;
+    color: #000000;
     font-size: 28px;
     line-height: 80px;
     margin: 0;
@@ -273,11 +277,11 @@ header {
   }
 
   input[type="submit"] {
-    background: #e7a200;
-    border-color: #e7a200;
+    background: #e70000;
+    border-color: #e70000;
     width: 155px;
     border-radius: 50px;
-    color: #fff;
+    color: #000000;
     font-weight: 700;
     margin-top: 20px;
   }
@@ -286,9 +290,9 @@ header {
 
 
 footer {
-  background-color: #e7a200;
+  background-color: #ff0000;
   margin-top: -145px;
-  color: #fff;
+  color: #000000;
   text-align: center;
   padding-top: 50px;
 }
